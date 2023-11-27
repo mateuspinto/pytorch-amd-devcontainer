@@ -22,7 +22,9 @@
         "ms-toolsai.jupyter"
       ],
       "settings": {
-        "python.defaultInterpreterPath": "/opt/conda/envs/py_3.9/bin/python"
+        "python.defaultInterpreterPath": "/opt/conda/envs/py_3.9/bin/python",
+        "files.autoSave": "onFocusChange",
+        "jupyter.notebookFileRoot": "${workspaceFolder}"
       }
     }
   }
